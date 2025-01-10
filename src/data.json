@@ -1,0 +1,149 @@
+{
+    "name" : "Hariharan",
+    "descriptionAboutYou" : "I'm a Disciplined and Dedicated Software Engineer with 2 years of experience in Full Stack Development and 4 months experience as an Intern in Full Stack Development, with a passion for Web Application Development and Mobile Application Development. I am proficient in building React JS, React Native, Node JS and Java with Spring Boot applications.",
+    "gmailId": "hari04harry@gmail.com",
+    "githubUrl":"https://github.com/hari1027",
+    "linkedInUrl":"https://www.linkedin.com/in/hariharan-narayanan-a81321314/",
+    "domains": [{
+        "FrontEndDeveloper" : "I have Experience in building Web Application's with good Css and Responsive UI's using React JS and React Native"
+    }
+    ,{
+         "BackEndDeveloper" : "I have Experience in building robust, scalable, and secure server-side applications using Node JS and Java with SpringBoot."
+    },{
+        "CRM Integrations" : "I have Experience in Integrating the Web Application with CRM's like Salesforce, Zendesk, Freshdesk and Freshsales using their Respective Api's."
+   }
+   ],
+   "history":[
+      {
+        "role": "Software Engineer",
+        "organisation": "Ozonetel Communications",
+        "startDate": "September, 2022",
+        "endDate": "September, 2024",
+        "experiences": ["Worked in building Admin Portal Application","Worked in building Live AgentToolBar Application","Worked in the Integration of Live Agent Toolbar with Crm's like Salesforce, Zendesk, Freshdesk and Freshsales"],
+        "imageSrc": "/assets/history/ozonetel.jpg?url."
+      }
+   ],
+   "skills":[
+    {
+      "title": "Javascript",
+      "imageSrc": "/assets/skills/javascript.jpg?url."
+    },
+    {
+      "title": "React JS",
+      "imageSrc": "/assets/skills/react.png?url."
+    },
+    {
+      "title": "ReactNative",
+      "imageSrc": "/assets/skills/reactnative.png?url."
+    },
+    {
+      "title": "Redux",
+      "imageSrc": "/assets/skills/redux.png?url."
+    },
+    {
+      "title": "Node JS",
+      "imageSrc": "/assets/skills/node.png?url."
+    },
+    {
+      "title": "Express JS",
+      "imageSrc": "/assets/skills/express.png?url."
+    },
+    {
+      "title": "Java",
+      "imageSrc": "/assets/skills/java.png?url."
+    },
+    {
+      "title": "Spring Boot",
+      "imageSrc": "/assets/skills/springboot.png?url."
+    },
+    {
+      "title": "MySql",
+      "imageSrc": "/assets/skills/mySql.png?url."
+    },
+    {
+      "title": "PostGreSql",
+      "imageSrc": "/assets/skills/postgresql.png?url."
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "/assets/skills/mongodb.png?url."
+    },
+    {
+      "title": "HTML",
+      "imageSrc": "/assets/skills/html.png?url."
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "/assets/skills/css.png?url."
+    },
+    {
+      "title": "Git",
+      "imageSrc": "/assets/skills/git.png?url."
+    }
+  ],
+  "projects":[
+    {
+      "title": "Explore And Eat",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Explore and Eat Application for Food Enthusiasts.",
+      "skills": ["React Native", "Node JS", "Express JS", "Mongo DB", "Appwrite"],
+      "source": ["https://github.com/hari1027/FoodShop" , "https://github.com/hari1027/FoodShop-server"]
+    },
+    {
+      "title": "Card Games",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Multiplayer card games with a collection of varieties - Memory, Ace, Jack & Five.",
+      "skills": ["React Native", "Node JS", "Express JS", "WebSocket", "Appwrite"],
+      "source": ["https://github.com/hari1027/Game" , "https://github.com/hari1027/game-server"]
+    },
+    {
+      "title": "Electricity Bill Payment App",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Generate electricity bills and facilitates payments.",
+      "skills": ["React JS", "Java", "Spring Boot","PostGreSql"],
+      "source": ["https://github.com/hari1027/ElectricityBillPaymentAppFrontEnd" , "https://github.com/hari1027/ElectricityBillPaymentAppBackEnd"]
+    },
+    {
+      "title": "Slot Booking Application",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Slot booking Application.",
+      "skills": ["React JS", "Node Js", "Express JS"],
+      "source": ["https://github.com/hari1027/fitness_slot_booking_system" , "https://github.com/hari1027/fitness-booking-backend"]
+    },
+    {
+      "title": "Language Translation",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Translating words from one language to another.",
+      "skills": ["React JS", "Node Js", "Express JS"],
+      "source": ["https://github.com/hari1027/textTranslationFrontEnd" , "https://github.com/hari1027/textTranslationBackend"]
+    },
+    {
+      "title": "Redirecting to Location",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Opening Google Maps and giving route from current location to user mentioned location in react native app.",
+      "skills": ["React Native"],
+      "source": ["https://github.com/hari1027/Directions-In-ReactNative"]
+    },
+    {
+      "title": "App Write Login Authentication",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Login Authentication using App Write.",
+      "skills": ["React Native", "Node Js", "Mongo DB", "Appwrite"],
+      "source": ["https://github.com/hari1027/Appwrite-forntend" , "https://github.com/hari1027/Appwrite-server"]
+    },
+    {
+      "title": "Jet pack Compose Android Applications",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Simple Applications used to learn Kotlin.",
+      "skills": ["Kotlin"],
+      "source": ["https://github.com/hari1027/AndroidWithJetPackComposeSamples"]
+    },
+    {
+      "title": "React Native Simple Applications",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Simple Applications used to learn react native.",
+      "skills": ["React Native"],
+      "source": ["https://github.com/hari1027/ReactNativeProjects"]
+    }
+  ]
+}

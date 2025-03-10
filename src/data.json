@@ -1,14 +1,14 @@
 {
     "name" : "Hariharan",
-    "descriptionAboutYou" : "I'm a Disciplined and Dedicated Software Engineer with 2 years of experience in Full Stack Development and 4 months experience as an Intern in Full Stack Development, with a passion for Web Application Development and Mobile Application Development. I am proficient in building React JS, React Native, Node JS and Java with Spring Boot applications.",
+    "descriptionAboutYou" : "Software Engineer with over 2 years of experience in Full Stack Development, coupled with an additional 4 months of internship experience in full stack, I specialize in creating high-quality web and mobile applications. My passion lies in leveraging cutting-edge technologies to build seamless user experiences. My expertise spans across building scalable, responsive applications, ensuring both functionality and performance meet the highest standards. I’m always eager to learn, adapt, and innovate, delivering solutions that drive business success and exceed client expectations.During my Software Engineering career, I have worked with multiple programming languages, libraries, frameworks and technologies such as JavaScript, TypeScript , React JS, React Native , Node JS , Java and CRM'S such as (Salesforce , Zendesk , Freshdesk and Freshsales).",
     "gmailId": "hari04harry@gmail.com",
     "githubUrl":"https://github.com/hari1027",
     "linkedInUrl":"https://www.linkedin.com/in/hariharan-narayanan-a81321314/",
     "domains": [{
-        "FrontEndDeveloper" : "I have Experience in building Web Application's with good Css and Responsive UI's using React JS and React Native"
+        "FrontEndDeveloper" : "I have Experience in Creating Web Applications and Mobile Applications with Responsive UI using React JS and React Native"
     }
     ,{
-         "BackEndDeveloper" : "I have Experience in building robust, scalable, and secure server-side applications using Node JS and Java with SpringBoot."
+        "BackEndDeveloper" : "I have Experience in building robust, scalable, and secure server-side applications using Node JS and Java with SpringBoot."
     },{
         "CRM Integrations" : "I have Experience in Integrating the Web Application with CRM's like Salesforce, Zendesk, Freshdesk and Freshsales using their Respective Api's."
    }
@@ -69,6 +69,10 @@
       "imageSrc": "/assets/skills/mongodb.png?url."
     },
     {
+      "title": "Firebase",
+      "imageSrc": "/assets/skills/Firebase.png?url."
+    },
+    {
       "title": "HTML",
       "imageSrc": "/assets/skills/html.png?url."
     },
@@ -77,11 +81,29 @@
       "imageSrc": "/assets/skills/css.png?url."
     },
     {
+      "title": "Tailwind CSS",
+      "imageSrc": "/assets/skills/tailwind.png?url."
+    },
+    {
       "title": "Git",
       "imageSrc": "/assets/skills/git.png?url."
     }
   ],
   "projects":[
+    {
+      "title": "Coup Game",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Coup game is a quick and strategic game which can be played Within 10 to 20 mins .",
+      "skills": ["React JS", "Node JS", "Express JS", "WebSocket", "Tailwind css"],
+      "source": ["https://github.com/hari1027/coup-frontend" , "https://github.com/hari1027/coup-backend"]
+    },
+    {
+      "title": "Chess Game",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Three varieties of chess game like Playing with Yourself , Playing with your friend and Playing with the bot",
+      "skills": ["React JS", "Chess.js" , "Firebase" , "Cloud Firestore"],
+      "source": ["https://github.com/hari1027/chess"]
+    },
     {
       "title": "Explore And Eat",
       "imageSrc": "/assets/projects/project.png?url.",

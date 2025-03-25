@@ -26,8 +26,8 @@ export const ProjectCard = ({
       {source.map((soc,index) => {
         return(
           <div className={styles.links}>
-           <a href={soc} target="_blank" rel="noopener noreferrer" className={styles.link}>
-              {`Source ${index + 1}`}
+           <a href={soc.url} target="_blank" rel="noopener noreferrer" className={styles.link}>
+              {soc.name}
            </a>
          </div>
          )

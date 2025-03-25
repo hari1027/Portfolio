@@ -5,11 +5,14 @@
     "githubUrl":"https://github.com/hari1027",
     "linkedInUrl":"https://www.linkedin.com/in/hariharan-narayanan-a81321314/",
     "domains": [{
-        "FrontEndDeveloper" : "I have Experience in Creating Web Applications and Mobile Applications with Responsive UI using React JS and React Native"
+        "FrontEndDeveloper" : "I have Experience in Creating Web Applications and Mobile Applications with Responsive UI using React JS , Nest JS and React Native"
     }
     ,{
-        "BackEndDeveloper" : "I have Experience in building robust, scalable, and secure server-side applications using Node JS and Java with SpringBoot."
+        "BackEndDeveloper" : "I have Experience in building robust, scalable, and secure server-side applications using Express JS , Nest Js and Java with SpringBoot."
     },{
+      "DataBase" : "I have Experience in working with MySQL, PostgreSQL, MongoDB, and Firebase with experience in database design, optimization, and management for scalable applications"
+    },
+    {
         "CRM Integrations" : "I have Experience in Integrating the Web Application with CRM's like Salesforce, Zendesk, Freshdesk and Freshsales using their Respective Api's."
    }
    ],
@@ -19,15 +22,11 @@
         "organisation": "Ozonetel Communications",
         "startDate": "September, 2022",
         "endDate": "September, 2024",
-        "experiences": ["Worked in building Admin Portal Application","Worked in building Live AgentToolBar Application","Worked in the Integration of Live Agent Toolbar with Crm's like Salesforce, Zendesk, Freshdesk and Freshsales"],
+        "experiences": ["Developed an Admin Portal Application with a focus on scalability and user experience.","Developed an Live Agent Toolbar Application, enhancing real-time agent interactions.","Led the integration of the Live Agent Toolbar with leading CRMs, including Salesforce, Zendesk, Freshdesk, and Freshsales, ensuring seamless interoperability and improved customer support efficiency."],
         "imageSrc": "/assets/history/ozonetel.jpg?url."
       }
    ],
    "skills":[
-    {
-      "title": "Javascript",
-      "imageSrc": "/assets/skills/javascript.jpg?url."
-    },
     {
       "title": "React JS",
       "imageSrc": "/assets/skills/react.png?url."
@@ -41,6 +40,10 @@
       "imageSrc": "/assets/skills/redux.png?url."
     },
     {
+      "title": "Next JS",
+      "imageSrc": "/assets/skills/next.png?url."
+    },
+    {
       "title": "Node JS",
       "imageSrc": "/assets/skills/node.png?url."
     },
@@ -49,12 +52,8 @@
       "imageSrc": "/assets/skills/express.png?url."
     },
     {
-      "title": "Java",
-      "imageSrc": "/assets/skills/java.png?url."
-    },
-    {
-      "title": "Spring Boot",
-      "imageSrc": "/assets/skills/springboot.png?url."
+      "title": "Nest JS",
+      "imageSrc": "/assets/skills/nest.png?url."
     },
     {
       "title": "MySql",
@@ -73,6 +72,10 @@
       "imageSrc": "/assets/skills/Firebase.png?url."
     },
     {
+      "title": "Javascript",
+      "imageSrc": "/assets/skills/javascript.jpg?url."
+    },
+    {
       "title": "HTML",
       "imageSrc": "/assets/skills/html.png?url."
     },
@@ -85,87 +88,105 @@
       "imageSrc": "/assets/skills/tailwind.png?url."
     },
     {
-      "title": "Git",
-      "imageSrc": "/assets/skills/git.png?url."
+      "title": "Java",
+      "imageSrc": "/assets/skills/java.png?url."
+    },
+    {
+      "title": "Spring Boot",
+      "imageSrc": "/assets/skills/springboot.png?url."
     }
   ],
   "projects":[
+    {
+      "title": "Pet World",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "It is an application Where you can buy and sell your pets, you can view the pet details and you can view the contact details to buy it.",
+      "skills": ["Next JS", "Nest JS", "Graph QL", "PostGreSql", "Prisma ORM"],
+      "source": [{"url" : "https://hari-pet-market.netlify.app" , "name" : "Click To Try"} , {"url" : "https://github.com/hari1027/pet-sell-buy-frontend" , "name" : "FrontEnd"} , {"url" : "https://github.com/hari1027/pet-sell-buy-backend", "name" : "BackEnd"}]
+    },
     {
       "title": "Coup Game",
       "imageSrc": "/assets/projects/project.png?url.",
       "description": "Coup game is a quick and strategic game which can be played Within 10 to 20 mins .",
       "skills": ["React JS", "Node JS", "Express JS", "WebSocket", "Tailwind css"],
-      "source": ["https://github.com/hari1027/coup-frontend" , "https://github.com/hari1027/coup-backend"]
+      "source": [{"url" : "https://hari-online-coup.netlify.app" , "name" : "Click To Try"} , {"url" : "https://github.com/hari1027/coup-frontend" , "name" : "FrontEnd" } , {"url" : "https://github.com/hari1027/coup-backend" , "name" : "BackEnd"}]
     },
     {
       "title": "Chess Game",
       "imageSrc": "/assets/projects/project.png?url.",
-      "description": "Three varieties of chess game like Playing with Yourself , Playing with your friend and Playing with the bot",
+      "description": "Three varieties of chess game like Playing with Yourself , Playing with your friend and Playing with the bot . TRY THIS ON BROWSER ONLY NOT MOBILE",
       "skills": ["React JS", "Chess.js" , "Firebase" , "Cloud Firestore"],
-      "source": ["https://github.com/hari1027/chess"]
+      "source": [{"url" : "https://hariharan-chess-game.netlify.app" , "name" : "Click To Try"} , {"url" : "https://github.com/hari1027/chess" , "name" : "FrontEnd" }]
     },
     {
       "title": "Explore And Eat",
       "imageSrc": "/assets/projects/project.png?url.",
-      "description": "Explore and Eat Application for Food Enthusiasts.",
+      "description": "Explore and Eat Application for Food Enthusiasts. CONTACT ME FOR APK , SINCE IT IS AN ANDROID APPLICATION.",
       "skills": ["React Native", "Node JS", "Express JS", "Mongo DB", "Appwrite"],
-      "source": ["https://github.com/hari1027/FoodShop" , "https://github.com/hari1027/FoodShop-server"]
+      "source": [{"url" : "https://github.com/hari1027/FoodShop" , "name" : "FrontEnd"} , {"url" : "https://github.com/hari1027/FoodShop-server" , "name" : "BackEnd"}]
     },
     {
       "title": "Card Games",
       "imageSrc": "/assets/projects/project.png?url.",
-      "description": "Multiplayer card games with a collection of varieties - Memory, Ace, Jack & Five.",
+      "description": "Multiplayer card games with a collection of varieties - Memory, Ace, Jack & Five. CONTACT ME FOR APK , SINCE IT IS AN ANDROID APPLICATION.",
       "skills": ["React Native", "Node JS", "Express JS", "WebSocket", "Appwrite"],
-      "source": ["https://github.com/hari1027/Game" , "https://github.com/hari1027/game-server"]
+      "source": [{"url": "https://github.com/hari1027/Game" , "name" : "FrontEnd" } , {"url" : "https://github.com/hari1027/game-server" , "name" : "BackEnd"}]
     },
     {
       "title": "Electricity Bill Payment App",
       "imageSrc": "/assets/projects/project.png?url.",
       "description": "Generate electricity bills and facilitates payments.",
       "skills": ["React JS", "Java", "Spring Boot","PostGreSql"],
-      "source": ["https://github.com/hari1027/ElectricityBillPaymentAppFrontEnd" , "https://github.com/hari1027/ElectricityBillPaymentAppBackEnd"]
+      "source": [{"url" : "https://github.com/hari1027/ElectricityBillPaymentAppFrontEnd" , "name" : "FrontEnd"} , {"url": "https://github.com/hari1027/ElectricityBillPaymentAppBackEnd" , "name" : "BackEnd" }]
     },
     {
       "title": "Slot Booking Application",
       "imageSrc": "/assets/projects/project.png?url.",
       "description": "Slot booking Application.",
       "skills": ["React JS", "Node Js", "Express JS"],
-      "source": ["https://github.com/hari1027/fitness_slot_booking_system" , "https://github.com/hari1027/fitness-booking-backend"]
+      "source": [{"url" : "https://hariharan-slot-booking-system.netlify.app" , "name" : "Click To Try"} , {"url" : "https://github.com/hari1027/fitness_slot_booking_system" , "name": "FrontEnd"} , {"url" : "https://github.com/hari1027/fitness-booking-backend" , "name" : "BackEnd"}]
+    },
+    {
+      "title": "Calculate product's variance percentage",
+      "imageSrc": "/assets/projects/project.png?url.",
+      "description": "Calculate the variance in percentage of parent and thier children's product if there is a rise in cost value or percentage rise .",
+      "skills": ["React JS"],
+      "source": [{"url" : "https://hariharan-simple-heirarchical-table.netlify.app" , "name" : "Click To Try"} , {"url" : "https://github.com/hari1027/simple-hirarchical-table" , "name" : "FrontEnd"}]
     },
     {
       "title": "Language Translation",
       "imageSrc": "/assets/projects/project.png?url.",
       "description": "Translating words from one language to another.",
       "skills": ["React JS", "Node Js", "Express JS"],
-      "source": ["https://github.com/hari1027/textTranslationFrontEnd" , "https://github.com/hari1027/textTranslationBackend"]
+      "source": [{"url" : "https://hariharan-text-translation.netlify.app" , "name" : "Click To Try"} , {"url" :"https://github.com/hari1027/textTranslationFrontEnd" , "name" : "FrontEnd" }, {"url" : "https://github.com/hari1027/textTranslationBackend" , "name" : "BackEnd"}]
     },
     {
       "title": "Redirecting to Location",
       "imageSrc": "/assets/projects/project.png?url.",
-      "description": "Opening Google Maps and giving route from current location to user mentioned location in react native app.",
+      "description": "Opening Google Maps and giving route from current location to user mentioned location in react native app. CONTACT ME FOR APK , SINCE IT IS AN ANDROID APPLICATION.",
       "skills": ["React Native"],
-      "source": ["https://github.com/hari1027/Directions-In-ReactNative"]
+      "source": [{"url" : "https://github.com/hari1027/Directions-In-ReactNative" , "name" : "FrontEnd"}]
     },
     {
       "title": "App Write Login Authentication",
       "imageSrc": "/assets/projects/project.png?url.",
-      "description": "Login Authentication using App Write.",
+      "description": "Login Authentication using App Write. CONTACT ME FOR APK , SINCE IT IS AN ANDROID APPLICATION.",
       "skills": ["React Native", "Node Js", "Mongo DB", "Appwrite"],
-      "source": ["https://github.com/hari1027/Appwrite-forntend" , "https://github.com/hari1027/Appwrite-server"]
+      "source": [{"url" : "https://github.com/hari1027/Appwrite-forntend" , "name" : "FrontEnd" } , {"url" : "https://github.com/hari1027/Appwrite-server" , "name" : "BackEnd"}]
     },
     {
       "title": "Jet pack Compose Android Applications",
       "imageSrc": "/assets/projects/project.png?url.",
       "description": "Simple Applications used to learn Kotlin.",
       "skills": ["Kotlin"],
-      "source": ["https://github.com/hari1027/AndroidWithJetPackComposeSamples"]
+      "source": [{"url" : "https://github.com/hari1027/AndroidWithJetPackComposeSamples" , "name" : "Samples"}]
     },
     {
       "title": "React Native Simple Applications",
       "imageSrc": "/assets/projects/project.png?url.",
       "description": "Simple Applications used to learn react native.",
       "skills": ["React Native"],
-      "source": ["https://github.com/hari1027/ReactNativeProjects"]
+      "source": [{"url" : "https://github.com/hari1027/ReactNativeProjects", "name" : "Samples" }]
     }
   ]
 }

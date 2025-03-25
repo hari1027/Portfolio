@@ -49,7 +49,7 @@
 .heroImg{
     width: 35%;
     z-index: 1;
-
+    margin-left: 10px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;

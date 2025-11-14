@@ -1,32 +1,47 @@
 {
     "name" : "Hariharan",
-    "descriptionAboutYou" : "Software Engineer with over 2 years of experience in Full Stack Development, coupled with an additional 4 months of internship experience in full stack, I specialize in creating high-quality web and mobile applications. My passion lies in leveraging cutting-edge technologies to build seamless user experiences. My expertise spans across building scalable, responsive applications, ensuring both functionality and performance meet the highest standards. I’m always eager to learn, adapt, and innovate, delivering solutions that drive business success and exceed client expectations.During my Software Engineering career, I have worked with multiple programming languages, libraries, frameworks and technologies such as JavaScript, TypeScript , React JS, React Native , Node JS , Java and CRM'S such as (Salesforce , Zendesk , Freshdesk and Freshsales).",
+    "descriptionAboutYou" : "Full Stack Developer with 3 years of experience in designing and deploying high-performance web applications, mobile applications and scalable distributed systems. Skilled in .NET core, React.js, Node.js, Java, Next.js,React Native, AWS and CRM'S such as (Salesforce , Zendesk , Freshdesk and Freshsales). Proficient in microservices architecture, API development, database design, and CI/CD automation, ensuring efficient and secure software delivery.",
     "gmailId": "hari04harry@gmail.com",
     "githubUrl":"https://github.com/hari1027",
     "linkedInUrl":"https://www.linkedin.com/in/hariharan-narayanan-a81321314/",
     "domains": [{
-        "FrontEndDeveloper" : "I have Experience in Creating Web Applications and Mobile Applications with Responsive UI using React JS , Nest JS and React Native"
+        "FrontEnd Development" : "I have Experience in Creating Web Applications and Mobile Applications with Responsive UI using React JS , Next JS , React Native , Blazor and Razor Pages"
     }
     ,{
-        "BackEndDeveloper" : "I have Experience in building robust, scalable, and secure server-side applications using Express JS , Nest Js and Java with SpringBoot."
+        "BackEnd Development" : "I have Experience in building robust, scalable, and secure server-side applications using .Net core , Express JS , Nest Js, GraphQl, and Java with SpringBoot."
     },{
-      "DataBase" : "I have Experience in working with MySQL, PostgreSQL, MongoDB, and Firebase with experience in database design, optimization, and management for scalable applications"
+        "DataBase" : "I have Experience in working with MySQL, PostgreSQL, MongoDB, and Firebase with experience in database design, optimization, and management for scalable applications"
+    },
+    {
+        "Cloud" : "I have Experience in using AWS (S3, EC2, CloudFront), IIS Server deployment, GitHub Actions"
     },
     {
         "CRM Integrations" : "I have Experience in Integrating the Web Application with CRM's like Salesforce, Zendesk, Freshdesk and Freshsales using their Respective Api's."
-   }
+    }
    ],
    "history":[
+      {
+        "role": "Software Engineer",
+        "organisation": "Verizon",
+        "startDate": "April, 2024",
+        "endDate": "Present",
+        "experiences": ["Spearheaded complete design and development of a full-stack project independently from concept to deployment using .NET, React and MS SQL","Optimized React.js UI/UX to handle and render 1000+ records using server-side pagination, lazy loading, and CDN caching."," Reorganized data schema to ensure normalization and ACID compliance, improving scalability and data integrity.","Explored agentic development workflows using GitHub Copilot and AI-assisted tools to align with modern industry standards."],
+        "imageSrc": "/assets/history/verizon.jpg?url."
+      },
       {
         "role": "Software Engineer",
         "organisation": "Ozonetel Communications",
         "startDate": "September, 2022",
         "endDate": "September, 2024",
-        "experiences": ["Developed an Admin Portal Application with a focus on scalability and user experience.","Developed an Live Agent Toolbar Application, enhancing real-time agent interactions.","Led the integration of the Live Agent Toolbar with leading CRMs, including Salesforce, Zendesk, Freshdesk, and Freshsales, ensuring seamless interoperability and improved customer support efficiency."],
+        "experiences": ["Developed an Admin Portal Application and Live Agent Toolbar Application","Designed and implemented full-stack cloud applications using React.js, Java, Node.js, Express.js, and PostgreSQL.","Adopted microservices architecture for modular scalability and easier maintenance.","Developed REST APIs integrating Salesforce, Zendesk, Freshdesk, and Freshsales CRM platforms."],
         "imageSrc": "/assets/history/ozonetel.jpg?url."
       }
    ],
    "skills":[
+    {
+      "title": "Next JS",
+      "imageSrc": "/assets/skills/next.png?url."
+    },
     {
       "title": "React JS",
       "imageSrc": "/assets/skills/react.png?url."
@@ -36,12 +51,12 @@
       "imageSrc": "/assets/skills/reactnative.png?url."
     },
     {
-      "title": "Redux",
-      "imageSrc": "/assets/skills/redux.png?url."
+      "title": "Blazor",
+      "imageSrc": "/assets/skills/blazor.png?url."
     },
     {
-      "title": "Next JS",
-      "imageSrc": "/assets/skills/next.png?url."
+      "title": ".Net Core",
+      "imageSrc": "/assets/skills/dotnet.png?url."
     },
     {
       "title": "Node JS",
@@ -54,6 +69,10 @@
     {
       "title": "Nest JS",
       "imageSrc": "/assets/skills/nest.png?url."
+    },
+     {
+      "title": "Java",
+      "imageSrc": "/assets/skills/java.png?url."
     },
     {
       "title": "MySql",
@@ -68,32 +87,8 @@
       "imageSrc": "/assets/skills/mongodb.png?url."
     },
     {
-      "title": "Firebase",
-      "imageSrc": "/assets/skills/Firebase.png?url."
-    },
-    {
-      "title": "Javascript",
-      "imageSrc": "/assets/skills/javascript.jpg?url."
-    },
-    {
-      "title": "HTML",
-      "imageSrc": "/assets/skills/html.png?url."
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "/assets/skills/css.png?url."
-    },
-    {
-      "title": "Tailwind CSS",
-      "imageSrc": "/assets/skills/tailwind.png?url."
-    },
-    {
-      "title": "Java",
-      "imageSrc": "/assets/skills/java.png?url."
-    },
-    {
-      "title": "Spring Boot",
-      "imageSrc": "/assets/skills/springboot.png?url."
+      "title": "AWS",
+      "imageSrc": "/assets/skills/aws.png?url."
     }
   ],
   "projects":[

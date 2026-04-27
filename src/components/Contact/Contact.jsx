@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./Contact.module.css";
-import data from "../../data.json"
-
+import data from "../../data.json";
+import { MdEmail, MdPhone } from "react-icons/md";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export const Contact = () => {
   return (
@@ -12,19 +13,24 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={'/assets/contact/emailIcon.png?url.}'} alt="Email icon" />
+          <MdEmail className={styles.icon} />
           <a href={`mailto:${data.gmailId}`}>{data.gmailId}</a>
         </li>
         <li className={styles.link}>
-          <img
-            src={'/assets/contact/linkedinIcon.png?url.}'}
-            alt="LinkedIn icon"
-          />
-          <a href={data.linkedInUrl} target="_blank" rel="noopener noreferrer">{data.linkedInUrl}</a>
+          <FaLinkedin className={styles.icon} />
+          <a href={data.linkedInUrl} target="_blank" rel="noopener noreferrer">
+            {data.linkedInUrl}
+          </a>
         </li>
         <li className={styles.link}>
-          <img src={'/assets/contact/githubIcon.png?url.}'} alt="Github icon" />
-          <a href={data.githubUrl} target="_blank" rel="noopener noreferrer">{data.githubUrl}</a>
+          <FaGithub className={styles.icon} />
+          <a href={data.githubUrl} target="_blank" rel="noopener noreferrer">
+            {data.githubUrl}
+          </a>
+        </li>
+        <li className={styles.link}>
+          <MdPhone className={styles.icon} />
+          <a href={`tel:${data.mobileNumber}`}>{data.mobileNumber}</a>
         </li>
       </ul>
     </footer>

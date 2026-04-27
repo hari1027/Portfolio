@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Experience.module.css";
-import data from "../../data.json"
+import data from "../../data.json";
 
 export const Experience = () => {
   return (
@@ -11,16 +11,18 @@ export const Experience = () => {
           {data.history.map((historyItem, id) => {
             return (
               <li key={id} className={styles.historyItem}>
-                <img
-                  src={historyItem.imageSrc}
-                  alt={`${historyItem.organisation} Logo`}
-                />
+                <div className={styles.logoContainer}>
+                  <img
+                    src={historyItem.imageSrc}
+                    alt={`${historyItem.organisation} Logo`}
+                  />
+                </div>
                 <div className={styles.historyItemDetails}>
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
                     {historyItem.experiences.map((experience, id) => {
-                      return <li style={{marginTop:"20px"}} key={id}>{experience}</li>;
+                      return <li key={id}>{experience}</li>;
                     })}
                   </ul>
                 </div>
